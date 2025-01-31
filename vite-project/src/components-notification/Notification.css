@@ -1,0 +1,59 @@
+
+.notification-container {
+    padding: 20px;
+    
+    margin-left: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #1051a551;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 2px solid white;
+}
+
+.navigation button.active {
+    background-color: white;
+    color: black;
+}
+
+.navigation button:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+}

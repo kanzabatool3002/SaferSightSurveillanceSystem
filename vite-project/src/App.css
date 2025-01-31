@@ -1,0 +1,21 @@
+/* Import individual CSS files */
+@import './Header.css';
+@import './AlertFilters.css';
+@import './AlertTable.css';
+@import './EventDetails.css';
+@import './sidebar.css';
+
+.alerts-container {
+  display: flex; 
+}
+
+.main-content {
+  flex: 1; 
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}

@@ -1,0 +1,37 @@
+.add-camera {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 38rem;
+  }
+  
+  .add-camera h2 {
+    text-align: center;
+  }
+  
+  .add-camera label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-camera input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .add-camera button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1051a551;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  

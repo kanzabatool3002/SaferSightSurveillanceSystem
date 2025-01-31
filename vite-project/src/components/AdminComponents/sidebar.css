@@ -1,0 +1,100 @@
+/* sidebar.css */
+
+/* Ensure the sidebar takes up the full height of the screen */
+.sidebar {
+  width: 250px; /* Adjust width as needed */
+  height: 100vh; /* Full height of the viewport */
+  position: fixed; /* Keep the sidebar fixed on the left */
+  top: 0;
+  left: 0;
+  background-color: #1e274f55; /* Sidebar background color */
+  padding: 20px; /* Padding inside the sidebar */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  background: #1a202c; /* Dark background for the sidebar */
+  color: #ffffff; /* White text color for sidebar */
+  scrollbar-width: thin; /* Firefox: thin scrollbar */
+  scrollbar-color: #1d86dd #1e274f55; /* Firefox: scrollbar thumb and track colors */
+  scroll-behavior: smooth; /* Smooth scroll for content within the sidebar */
+}
+
+/* Smooth and classy scrollbar styling for WebKit browsers (Chrome, Safari) */
+.sidebar::-webkit-scrollbar {
+  width: 8px; /* Set scrollbar width */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #1d86dd; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+  border: 2px solid transparent; /* Optional: Adds some spacing inside the thumb */
+  background-clip: padding-box; /* Optional: Makes the border spacing visible */
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: #1e274f55; /* Scrollbar track color */
+  border-radius: 10px; /* Rounded scrollbar track */
+}
+
+/* Adjust logo styling if necessary */
+.sidebar .logo {
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Style links within the sidebar */
+.sidebar nav a {
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #1051a551; /* Green background for menu items */
+  color: #fffdfd; /* Dark text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size for links */
+  font-weight: bold;
+  text-align: center; /* Center the text */
+  line-height: 1.5; /* Adjust line height for vertical centering */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.sidebar nav a:hover {
+  border: 2px solid rgb(5, 5, 94); /* Darker green for hover effect */
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+/* Ensure the profile info and account activity sections are styled correctly */
+.sidebar .space-y-1 {
+  margin-top: 20px;
+}
+
+/* Profile and Account Activity sections */
+.sidebar .p-4 {
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.sidebar button {
+  width: 100%;
+  background: linear-gradient(to right, #1379bd, #1a58b6a2); /* Gradient background */
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 12px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.sidebar button:hover {
+  background: linear-gradient(to right, #3392c5af, #0f4d8fd2); /* Darker gradient on hover */
+}
+
+.sidebar button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1d86dd96; /* Focus ring for accessibility */
+}

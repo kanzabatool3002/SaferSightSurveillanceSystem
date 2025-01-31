@@ -1,0 +1,45 @@
+.add-location {
+    flex: 1;
+    /* Allow it to grow within its flex container but not exceed available space */
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    /* Ensure content flows vertically */
+    margin-left: 250px;
+}
+
+.add-location input {
+    color: black;
+    padding: 10px 10px 10px 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.add-location button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #1051a551;
+    color: #fffdfd;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-location button:hover{
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background-color: #f9fcff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

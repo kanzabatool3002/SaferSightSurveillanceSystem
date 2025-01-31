@@ -1,0 +1,31 @@
+/* Container for video wall */
+.video-wall {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+  margin-left: 250px; /* Adjust based on the width of your sidebar */
+  width: calc(100% - 250px); /* Ensure it takes up the remaining space after sidebar */
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  padding: 20px; /* Add padding if needed */
+}
+
+/* Wrapper for grid content */
+.content-wrapper {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  margin: 0; /* Ensure no additional margins */
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+  }
+}

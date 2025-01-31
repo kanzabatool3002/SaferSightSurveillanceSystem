@@ -1,0 +1,39 @@
+.event-details {
+  background-color: #2c2c3e;
+  color: white;
+  padding: 10px;
+}
+
+.event-details h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.video-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-row h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.auto-play {
+  margin-left: auto;
+}
+
+.placeholder-row {
+  display: flex;
+  gap: 20px;
+}
+
+.video-placeholder, .picture-placeholder {
+  width: 550px;
+  height: 200px;
+  background-color: #3a3a4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

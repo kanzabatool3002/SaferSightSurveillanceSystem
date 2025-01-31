@@ -1,0 +1,146 @@
+
+.addDevicePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.device-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.device {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+.device:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+}
+
+.selected-device {
+    border-color: #007bff;
+    background-color: #e7f0fe;
+}
+
+.icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.add-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* .instructions {
+    margin-top: 20px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.instructions h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.instructions p {
+    margin: 5px 0;
+    font-size: 22px;
+} */
+ /* Styling for the Instructions section */
+.instructions {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.instructions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.instructions li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.instructions p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 8px 0;
+}
+
+.instructions li::marker {
+    color: #000000; /* Custom color for bullet points */
+}

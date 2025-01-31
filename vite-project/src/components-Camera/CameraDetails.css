@@ -1,0 +1,58 @@
+
+.camera-detail-list {
+  margin: 20px 0px 20px 18rem;
+  /* padding: 20px; */
+  width: 83%;
+  border-collapse: collapse;
+  color: white;
+  background-color: #2c2c3e;
+}
+
+.camera-detail-list th, .camera-detail-list td {
+  /* padding: 15px; */
+  text-align: left;
+  border-bottom: 1px solid #3a3a4e;
+  color: white;
+  
+  font-size: 18px;
+}
+
+.camera-detail-list th {
+  background-color: #3a3a4e;
+}
+
+.search {
+  width: 95%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.search .search-icon {
+  color: #888;
+  padding-top: 5px;
+  font-size: 1.2rem;
+  float: right
+}
+
+.search input {
+  /* padding: 0.5rem 0.5rem 0.5rem 2.5rem; */
+  font-size: 1.1rem;
+  width: 90%;
+  background-color: #1051a500;
+  border: none;
+  height: 2rem;
+  border-radius: 0px;
+  /* margin-left: auto; */
+  float: right;
+  margin-left: 10px;
+}
+.search-box{
+  background-color: #1051a551;
+  width: 22%;
+  border-radius: 15px;
+  padding: 0 12px 0 10px;
+}
+
+

@@ -1,0 +1,38 @@
+.main-btn{
+    width: 100%;
+    /* background: linear-gradient(to right, #1379bd, #1a58b6a2); */
+    /* border: 2px solid red; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 12px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#0f4d8fd2 ;
+    border: none;
+}
+
+.main-btn:hover {
+    background:  white;
+    color: #0f4d8fd2;
+    border: 2px solid #0f4d8fd2;
+    /* background: linear-gradient(to right, #3392c5af, #0f4d8fd2); */
+    /* Darker gradient on hover */
+}
+
+.main-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #1d86dd96;
+    /* Focus ring for accessibility */
+}
+.hero-btn{
+    background-color: #0f4d8fd2;
+    border: none;
+    margin-right: 12px;
+}
+.hero-btn:hover{
+    background-color: #ffffffd2;
+    color: #0f4d8fd2;
+    border:2px solid #0f4d8fd2;
+}

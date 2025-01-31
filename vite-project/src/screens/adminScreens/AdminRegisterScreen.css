@@ -1,0 +1,106 @@
+.register-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to bottom right, #1f2937, #374151); */
+    color: white;
+    
+  }
+  
+  .register-container {
+    background: rgba(31, 41, 55, 0.9);
+    /* padding: 5rem; */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 554px;
+    /* height: 650px; */
+    height: 44rem;
+    padding: 5rem 5rem 5rem 5rem;
+  }
+  
+  .register-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #4b5563;
+    border-radius: 0.375rem;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    transition: border 0.3s ease;
+    height: 2.5rem;
+  }
+  
+  .input-field:focus {
+    border: 1px solid #3b82f6;
+  }
+  
+  .input-error {
+    border: 1px solid #ef4444;
+  }
+  
+  .error-message {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .register-button {
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 24.5rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .register-button:disabled {
+    background: #1e40af;
+    cursor: not-allowed;
+  }
+  
+  .register-button:hover:not(:disabled) {
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    transform: scale(1.02);
+  }
+  
+  .register-footer {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .register-link {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  .register-link:hover {
+    color: #2563eb;
+  }
+  
+  

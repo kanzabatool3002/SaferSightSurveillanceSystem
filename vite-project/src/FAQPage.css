@@ -1,0 +1,75 @@
+/* Container for FAQ page */
+.FAQ-page {
+  display: flex;
+  height: 100vh; 
+  margin-left: 250px; /* Adjust based on the width of your sidebar */
+  width: calc(100% - 250px); /* Ensure it takes up the remaining space after sidebar */
+}
+
+/* Container for FAQ content */
+.faq-container {
+  color: white;
+  max-width: 800px;
+  margin: 20px auto; /* Center content and add margin */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  flex: 1; /* Allow the container to grow and use available space */
+}
+
+/* Individual FAQ item */
+.faq-item {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* FAQ question styling */
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: #f9f9f9;
+  border: none;
+  padding: 10px; /* Adjust padding for better spacing */
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FAQ icon styling */
+.faq-icon {
+  font-size: 24px;
+  color: #666;
+}
+
+/* FAQ answer styling */
+.faq-answer {
+  padding: 10px; /* Adjust padding for better spacing */
+  font-size: 16px;
+  color: #282323; /* Change to a readable color (white was hard to read) */
+  line-height: 1.5;
+}
+
+/* List styling */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Styling for open and hover states */
+.faq-item.open .faq-question {
+  background: #e9e9e9;
+  color: white;
+}
+
+.faq-item:hover .faq-question {
+  background: #f0f0f0;
+}

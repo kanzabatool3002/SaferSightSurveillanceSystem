@@ -1,0 +1,74 @@
+.alert-filters {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    background-color: #2c2c3e;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+  }
+  
+
+  .alert-filters > div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+   
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align buttons to the right */
+  }
+  
+  .actions button {
+    margin-right: 10px;
+    background-color: #3a3a4e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .content-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3a3a4e;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure popup is on top */
+  }
+  
+  
+  .content-popup h3 {
+    text-align: center;
+    font-size:medium;
+    padding-right: 30px;
+  }
+  
+  .content-popup button {
+    margin-right: 10px;
+    background-color: #2c2c3e;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    gap: 20px;
+  }
+
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 0.7rem; /* Adjust font size as needed */
+    cursor: pointer;
+    color: white; /* Adjust color as needed */
+  }
+  
+  

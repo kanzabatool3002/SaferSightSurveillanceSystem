@@ -1,0 +1,62 @@
+.camera-view {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+  }
+  
+  .camera-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .view-options button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  select {
+    background-color: #2a2a3e;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }a
+  
+  .camera-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .camera-feed {
+    background-color: #2a2a3e;
+    padding: 15px;
+  }
+  
+  .camera-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  
+  .camera-controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .camera-controls button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }

@@ -1,0 +1,54 @@
+
+*{
+  color: white;
+}
+.live-camera{
+  margin-left: 300px;
+}
+.video-player {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 20px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+.video-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.video-controls button {
+  background-color: #3a3a4e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.buttons button{
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.buttons button:hover{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 13px;
+  background-color: #1051a551;
+  border-radius: 8px;
+  color: white;
+}
+.stats {
+    display: flex;
+    gap: 20px;
+
+  }
+  
+  .stats div {
+    background-color: #3a3a4e;
+    padding: 5px 10px;
+  }

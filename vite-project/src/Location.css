@@ -1,0 +1,12 @@
+.my-location {
+  display: flex;
+  height: 100vh;
+}
+
+.main-location {
+  display: flex;
+  flex-direction: column;
+}
+/* h1{
+  padding-left: 10px;
+} */
