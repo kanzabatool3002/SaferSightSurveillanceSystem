@@ -36,7 +36,7 @@ Safer Sight is an AI-powered surveillance system designed to detect suspicious a
 ### Setup
 #### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/safer-sight.git
+git clone [https://github.com/yourusername/safer-sight.git](https://github.com/kanzabatool3002/SaferSightSurveillanceSystem.git)
 cd safer-sight
 ```
 #### 2. Install Backend Dependencies
@@ -46,7 +46,7 @@ npm install
 ```
 #### 3. Install Frontend Dependencies
 ```sh
-cd ../frontend
+cd ../vite-project
 npm install
 ```
 #### 4.Install Mobile App Dependencies
@@ -63,12 +63,14 @@ python app.py (in second terminal to run AI models)
 ```
 Start the frontend:
 ```sh
-cd frontend
+cd vite-project
 npm run start
 ```
 Start The Mobile App:
 ```sh
-cd mobileApp
+cd SaferSight
 npm start
 ```
  for more detailed information about the project check project report.
+```https://drive.google.com/file/d/1OMsRRpNnwhPjpUvW9STy12eS4ZDN-uwK/view?usp=sharing```
+ 
