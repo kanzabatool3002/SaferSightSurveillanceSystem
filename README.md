@@ -1,7 +1,8 @@
 # Safer Sight Surveillance System
 Final Year project
 
-Overview
+# Overview
+
 Safer Sight is an AI-powered surveillance system designed to detect suspicious activities such as snatching and fighting in real-time. The system utilizes computer vision and deep learning models to enhance security monitoring and alert relevant authorities.
 
 ## Features
