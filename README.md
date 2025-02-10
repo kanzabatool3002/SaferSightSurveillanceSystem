@@ -71,6 +71,7 @@ Start The Mobile App:
 cd SaferSight
 npm start
 ```
+ 
  for more detailed information about the project check project report.
-```https://drive.google.com/file/d/1OMsRRpNnwhPjpUvW9STy12eS4ZDN-uwK/view?usp=sharing```
+ [Project Report](https://drive.google.com/file/d/1OMsRRpNnwhPjpUvW9STy12eS4ZDN-uwK/view?usp=sharing)
  
