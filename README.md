@@ -36,7 +36,7 @@ Safer Sight is an AI-powered surveillance system designed to detect suspicious a
 ### Setup
 #### 1. Clone the Repository
 ```sh
-git clone [https://github.com/yourusername/safer-sight.git](https://github.com/kanzabatool3002/SaferSightSurveillanceSystem.git)
+git clone https://github.com/kanzabatool3002/SaferSightSurveillanceSystem.git
 cd safer-sight
 ```
 #### 2. Install Backend Dependencies
