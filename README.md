@@ -4,6 +4,7 @@ Final Year project
 # Overview
 
 Safer Sight is an AI-powered surveillance system designed to detect suspicious activities such as snatching and fighting in real-time. The system utilizes computer vision and deep learning models to enhance security monitoring and alert relevant authorities.
+[Project Video](https://drive.google.com/file/d/1ZLCH-KWMsFnQ87P_WvW_gI66gRCVyKYw/view?usp=sharing)
 
 ## Features
 - **Human Activity Recognition**: Detects snatching, fighting, and normal roadside activities using ConvLSTM.
